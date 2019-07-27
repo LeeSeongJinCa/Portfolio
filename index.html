@@ -7,29 +7,28 @@
     <title>이성진의 웹 포트폴리오</title>
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/reset.css">
-    <script src="js/main.js" type="text/javascript"></script>
 </head>
 <body>
     <div id="layout">  
         <div id="header_wrap">
-            <header id="header_menu_wrap"> <!-- class="hide" -->
-                <img id="header_menu_btn" src="img/menu_img.svg" alt="menu_img" width="30" height="35">
+            <header id="header_menu_wrap">
                 <div id="header_menu">
                     <ul id="header_menu_middle">
-                        <li class="header_menu_item"><span>Home</span></li>
-                        <li class="header_menu_item"><span>About</span></li>
-                        <li class="header_menu_item"><span>Career</span></li>
-                        <li class="header_menu_item"><span>Personal Activities</span></li>
+                        <li class="header_menu_item"><span><a id="goabout" class="alist">About</a></span></li>
+                        <li class="header_menu_item"><span><a id="gocareer" class="alist">Career</a></span></li>
+                        <li class="header_menu_item"><span><a id="gopa" class="alist">Personal Activities</a></span></li>
+                        <li class="header_menu_item"><span><a id="gofooter" class="alist">footer</a></span></li>
                     </ul>
                 </div>
                 <button id="close_menu">
                     <div id="close_btn">
-                        <span><img src="img/x_icon.png" alt="x_icon"></span>
+                        <span><img id="close_img" src="img/x_icon.png" alt="x_icon"></span>
                     </div>
                 </button>
             </header>
 
             <section id="header">
+                <img id="header_menu_btn" src="img/menu_img.svg" alt="menu_img" width="30" height="35">
                 <div id="header_info">
                     <p id="header_name">이성진</p>
                     <p id="header_email"><img src="img/email_img.svg" alt="email_img" width="30" height="30">dltjqdhr55@gmail.com</p>
@@ -104,5 +103,6 @@
             </div>
         </div>
     </div>
+    <script src="js/main.js" type="text/javascript"></script>
 </body>
 </html>
