@@ -1,0 +1,151 @@
+/* #requiz {
+    background-color: #f3f3f3;
+} */
+
+/*! header */
+/** header */
+#header {
+    position: relative;
+    z-index: 1;
+}
+#header > a > button {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    padding: 0;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    transition: .5s;
+    background-color: #ffffff00;
+}
+#header > a > button:hover {
+    transform: scale(1.2);
+}
+#header > a > button > img {
+    width: 45px;
+    height: 40px;
+}
+/** header_content */
+#header_content {
+    position: relative;
+    background-image: url('https://kimwoohyun.github.io/portfolio/assets/img/bg-intro.8e1ccf1.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 80vh;
+}
+#header_content_div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    text-align: center;
+}
+#header_title {
+    font-size: 2.5em;
+}
+#header_subtitle {
+    font-size: 1.5em;
+}
+.header_text {
+    margin: 20px 0;
+}
+
+/*! requiz */
+#about_requiz_wrap {
+    max-width: 1140px !important;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+/** intro */
+#intro {
+    width: 100%;
+    padding: 40px 0;
+    margin: 0 auto;
+}
+#intro_team, #intro_project {
+    margin-bottom: 40px;
+}
+.intro_h1, .intro_p {
+    margin: 15px 0;
+}
+.intro_h1 {
+    font-size: 2.125em;
+}
+.intro_h4 {
+    font-size: 1.257em;
+}
+.intro_p {
+    font-size: 1.125
+}
+/** main_tab */
+#main_tab_wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+}
+#main_tab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 55%;
+    background-color: #282953;
+    cursor: pointer;
+}
+#main_tab > p {
+    color: #ffffff;
+    font-size: 2.125em;
+}
+#main_tab > p > span {
+    text-decoration: underline;
+}
+/** main_content */
+#main_content_wrap {
+    border: 1px solid red;
+}
+#main_content_banner > ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+    border: 1px solid red;
+}
+#main_content_banner > ul > li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 15px;
+    padding: 5px 10px;
+    font-size: 1.125em;
+    cursor: pointer;
+}
+#main_content_banner > ul > li:nth-child(odd):hover {
+    border-bottom: 2px solid #282953;
+}
+#main_content_banner > ul > li > img {
+    width: 50px;
+    height: 20px;
+}
+/** main_content_subject */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
