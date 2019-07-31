@@ -111,7 +111,6 @@
     justify-content: center;
     align-items: center;
     padding: 50px 0;
-    border: 1px solid red;
 }
 #main_content_banner > ul > li {
     display: flex;
@@ -130,10 +129,32 @@
     height: 20px;
 }
 /** main_content_subject */
-
-
-
-
+.subject_div {
+    margin-bottom: 50px;
+}
+.subject_h3 {
+    margin-bottom: 15px;
+    font-size: 1.512em;
+}
+.subject_p {
+    line-height: 25px;
+    font-size: 1.125em;
+}
+/** main_content_img */
+#main_content_img {
+    border: 1px solid blue;
+}
+.img_title {
+    font-size: 1.315em;
+    margin-bottom: 15px;
+}
+.img_div {
+    margin-bottom: 50px;
+}
+.img_img {
+    width: 100%;
+    height: 100%;
+}
 
 
 
