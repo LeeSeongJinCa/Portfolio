@@ -162,8 +162,9 @@ html {
     height: 100%;
 }
 .logo_imgs {
-    width: 130px;
-    height: 148px;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
 }
 
 /*!Personal Activities*/
