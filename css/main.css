@@ -1,4 +1,6 @@
-
+html {
+    scroll-behavior: smooth;
+}
 /*!header*/
 #header_wrap {
     position: relative;
@@ -92,9 +94,13 @@
 }
 
 /** container **/
-#container {
-    width: 1140px;
+#container_wrap {
+    max-width: 1140px !important;
     margin: 0 auto;
+}
+#container {
+    margin: 0 auto;
+    padding: 0 15px;
 }
 #container > section {
     margin-top: 60px;

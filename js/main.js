@@ -3,35 +3,34 @@
 
 var header = document.getElementById('header_menu_wrap');
 var menu = document.getElementById('close_menu');
-menu.addEventListener('click', () => {
+menu.addEventListener('click', function() {
     header.style.display = 'none';
 })
 
 var header = document.getElementById('header_menu_wrap');
 var menu = document.getElementById('header_menu_btn');
-menu.addEventListener('click', () => {
+menu.addEventListener('click', function() {
     header.style.display = 'block';
-})
+});
 
 /*
 !Smooth scroll */
-function scrollTo(element) {
-    var dir = element.offsetTop;
-    window.scroll({
-        behavior: 'smooth',
-        left: 0,
-        top: dir
-    });
-}
-var aList = document.getElementsByClassName('alist');
-for(var i = 0; i < aList.length; i++) {
-    var j = 1;
-    aList[i].addEventListener('click', function() {
-        scrollTo(document.getElementsByTagName("section")[j]);
-        j = j + 1;
-    })
-}
+// function scrollTo(element) {
+//     var dir = element.offsetTop;
+//     window.scroll({
+//         behavior: 'smooth',
+//         left: 0,
+//         top: dir
+//     });
+// }
+// var aList = document.getElementsByClassName('alist');
+// for(var i = 0, j = 1; i < aList.length; i++, j++) {
+//     aList[i].addEventListener('click', function() {
+//         scrollTo();
+//     });
+// }
 /*
+
 document.getElementById("goabout").addEventListener('click', function () {
     scrollTo(document.getElementsByTagName("section")[1]);
 });

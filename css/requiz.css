@@ -1,6 +1,3 @@
-/* #requiz {
-    background-color: #f3f3f3;
-} */
 body {
     color: #444;
 }
@@ -58,16 +55,19 @@ body {
 #about_requiz_wrap {
     max-width: 1140px !important;
     margin: 0 auto;
+    padding: 10px;
     background-color: #ffffff;
 }
 /** intro */
 #intro {
     width: 100%;
-    padding: 40px 0;
     margin: 0 auto;
 }
 #intro_team, #intro_project {
     margin-bottom: 40px;
+}
+.intro_h1, .intro_h4 {
+    font-weight: 400;
 }
 .intro_h1, .intro_p {
     margin: 15px 0;
@@ -94,8 +94,15 @@ body {
     align-items: center;
     height: 100%;
     width: 55%;
+    padding: 0 20px;
+    margin: 40px 0;
     background-color: #282953;
     cursor: pointer;
+}
+@media screen and (max-width: 845px) {
+    #main_tab_wrap {
+        height: 150px;
+    }
 }
 #main_tab > p {
     color: #ffffff;
@@ -105,9 +112,6 @@ body {
     text-decoration: underline;
 }
 /** main_content */
-/* #main_content_wrap {
-    border: 1px solid red;
-} */
 #main_content_banner > ul {
     display: flex;
     justify-content: center;
@@ -136,13 +140,10 @@ body {
     font-size: 1.512em;
 }
 .subject_p {
-    line-height: 25px;
+    line-height: 30px;
     font-size: 1.125em;
 }
 /** main_content_img */
-/* #main_content_img {
-    border: 1px solid blue;
-} */
 .img_title {
     font-size: 1.315em;
     margin-bottom: 15px;
