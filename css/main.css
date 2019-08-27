@@ -179,11 +179,12 @@ html {
     flex-wrap: wrap;
 }
 .pa_items {
-    width: 300px;
-    height: 427px;
-    margin: 40px;
+    flex: 0 0 33.333333%;
+    max-width: 30.333333%;
+    margin: 10px 15px 20px;
     box-shadow: 0 0 10px #444;
     transition: 0.4s;
+    cursor: pointer;
 }
 .pa_items:hover {
     transform: scale(1.1);
@@ -192,14 +193,11 @@ html {
     position: relative;
     transition: 0.5s;
 }
-
-.pa_img {
-    width: 300px;
-    height: 273px;
-}
 .test_div {
-    background-color: #a3a3a3;
-    width: 300px;
+    background-image: url('http://127.0.0.1:8080/WebPortfolio/Portfolio/img/requiz_img.png');
+    background-position: 50%;
+    background-size: cover;
+    /* width: 300px; */
     height: 273px;
 }
 .pa_title_wrap {
@@ -210,7 +208,6 @@ html {
     bottom: 0;
     left: 0;
     width: 100%;
-    background: linear-gradient(180deg,#ffffff00,#e5e5e5);
 }
 .bottom_text {
     padding-left: 10px;
@@ -231,7 +228,9 @@ html {
 .date_title, .date_subtitle {
     text-align: justify;
 }
-
+.data_text {
+    word-break: break-all;
+}
 
 /*!footer*/
 #footer {
