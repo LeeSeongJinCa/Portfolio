@@ -28,7 +28,8 @@ body {
 /** header_content */
 #header_content {
     position: relative;
-    background-image: url('https://kimwoohyun.github.io/portfolio/assets/img/bg-intro.8e1ccf1.jpg');
+    /* background-image: url('https://kimwoohyun.github.io/portfolio/assets/img/bg-intro.8e1ccf1.jpg'); */
+    background-image: url('http://127.0.0.1:8080/WebPortfolio/Portfolio/img/requiz_img.png');
     background-position: 50% 50%;
     background-size: cover;
     height: 80vh;
@@ -38,7 +39,7 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #ffffff;
+    color: #8a2626;
     text-align: center;
 }
 #header_title {
@@ -79,7 +80,7 @@ body {
     font-size: 1.257em;
 }
 .intro_p {
-    font-size: 1.125
+    font-size: 1.1em;
 }
 /** main_tab */
 #main_tab_wrap {
@@ -102,6 +103,12 @@ body {
 @media screen and (max-width: 845px) {
     #main_tab_wrap {
         height: 150px;
+    }
+    .intro_h1, .intro_h4 {
+        font-size: 1.5em;
+    }
+    .intro_p {
+        font-size: 0.9em;
     }
 }
 #main_tab > p {
@@ -138,6 +145,8 @@ body {
 .subject_h3 {
     margin-bottom: 15px;
     font-size: 1.512em;
+    font-weight: 500;
+    color: #3b3b3b;
 }
 .subject_p {
     line-height: 30px;
